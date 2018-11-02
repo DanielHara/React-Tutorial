@@ -1,0 +1,4 @@
+npm install ws@3.3.2 --save-dev --save-exact
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
